@@ -1,0 +1,35 @@
+.Container{
+}
+.Grid{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.Chat{
+   width: 80%;
+   height: 70vh;
+   border: 2px solid #9910ac;
+   overflow-y: auto;
+   border-radius:15px;
+   background-color: #fff
+}
+.TextField{
+   max-width: 80%;
+
+}
+.Button{
+   align-self: flex-end;
+   width: 200px;
+   background-color: #fff;
+}
+.User{
+   display: flex;
+   flex-direction: column;
+}
+
+.Text{
+   background-color: #fff;
+   border-radius: 15px;
+}

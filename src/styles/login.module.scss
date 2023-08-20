@@ -1,0 +1,14 @@
+.Grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.ButtonGrid{
+  max-width: 400px;
+  background-color: lightgray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
