@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Firebase-chat/static/css/main.53fb4324.css",
+    "main.js": "/React-Firebase-chat/static/js/main.69340154.js",
+    "index.html": "/React-Firebase-chat/index.html",
+    "main.53fb4324.css.map": "/React-Firebase-chat/static/css/main.53fb4324.css.map",
+    "main.69340154.js.map": "/React-Firebase-chat/static/js/main.69340154.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53fb4324.css",
+    "static/js/main.69340154.js"
+  ]
+}
