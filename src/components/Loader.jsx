@@ -1,5 +1,5 @@
 import styles from "../styles/login.module.scss";
-import { Box, Container, Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 const Loader = () => {
   return (
     <Container>
