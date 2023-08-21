@@ -53,7 +53,7 @@ const Chat = () => {
               width:'fit-content',
             }}> 
               <Grid container sx={{alignItems:"center"}}>
-                <Avatar sx={{ bgcolor:'blue',mr:0.5,height:50}}>{message.displayName.slice(0,1)}</Avatar>
+                <Avatar sx={{ bgcolor:'blue',mr:0.5}}>{message.displayName.slice(0,1)}</Avatar>
                 <div>{message.displayName}</div>
               </Grid>
               <div>{message.text}</div>
