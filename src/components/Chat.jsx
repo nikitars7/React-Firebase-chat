@@ -52,8 +52,8 @@ const Chat = () => {
               padding:'10px',
               width:'fit-content',
             }}> 
-              <Grid container className={styles.User}>
-                <Avatar src={message.photoURL}/>
+              <Grid container sx={{alignItems:"center"}}>
+                <Avatar sx={{ bgcolor:'blue',mr:0.5,height:50}}>{message.displayName.slice(0,1)}</Avatar>
                 <div>{message.displayName}</div>
               </Grid>
               <div>{message.text}</div>
@@ -74,7 +74,7 @@ const Chat = () => {
             variant={"outlined"}
             className={styles.Text}
           />
-          <Button onClick={sendMessage} className={styles.Button} variant="contained" color={'error'}>
+          <Button onClick={sendMessage} className={styles.Button} variant="contained">
             Send
           </Button>
         </Grid>

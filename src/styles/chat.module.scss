@@ -8,12 +8,30 @@
 }
 
 .Chat{
+   position: relative;
    width: 80%;
    height: 70vh;
-   border: 2px solid #9910ac;
+   border: 2px solid #2e0bad;
    overflow-y: auto;
-   border-radius:15px;
-   background-color: #fff
+   border-radius:8px;
+   background-color: #fff;
+}
+.Chat::-webkit-scrollbar {
+   position: absolute;
+   top: 0;
+   right: 10px;
+   width: 3px;
+   background-color: rgba(55, 40, 214, 0.15);
+   border-radius: 5px;
+   height: 200px;
+}
+
+.Chat::-webkit-scrollbar-thumb {
+   position: absolute;
+   background: #3c2ed6;
+   top: 0;
+   right: 20px;
+   border-radius: 5px;
 }
 .TextField{
    max-width: 80%;
@@ -21,12 +39,10 @@
 }
 .Button{
    align-self: flex-end;
-   width: 200px;
-   background-color: #fff;
+   width: 150px;
 }
 .User{
-   display: flex;
-   flex-direction: column;
+   
 }
 
 .Text{

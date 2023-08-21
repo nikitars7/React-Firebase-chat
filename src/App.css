@@ -3,9 +3,7 @@
   padding:0;
   box-sizing: border-box;
 }
-body{
-  background-color: #000;
-}
+
 .lds-roller {
   display: inline-block;
   position: relative;
